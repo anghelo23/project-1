@@ -1,0 +1,13 @@
+$("#maybe").hide();
+$("#harry").click(function(){
+        $(".three").toggle();
+});
+    $("#trick").mouseover(function(){
+    $(".One").fadeToggle();
+});
+$("#2snd").mouseover(function(){
+    $(".two").fadeOut();
+});
+$(".two").mouseover(function(){
+    $("#maybe").show();
+});
